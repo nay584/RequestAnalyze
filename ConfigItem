@@ -1,0 +1,89 @@
+Public hostname As String
+
+'01
+Public manual01 As Boolean
+Public division As String               '内容(新規or削除)
+Public companyName As String            '会社名
+Public groupName1 As String             'ホストグループ名1
+Public groupName2 As String             'ホストグループ名2
+Public pingMonitor As Boolean           'ピング監視　True or False
+Public portMonitor As Boolean           'ポート監視  True or False
+Public ip As String                     'IP Address
+Private ports() As String               '監視ポート一覧
+
+'02 不使用
+
+'03
+Public manual03 As Boolean
+Public templatesAddCount As Integer     '追加テンプレート数
+Public templatesDeleteCount As Integer  '削除テンプレート数
+Public macroAddCount As Integer         '追加マクロ数
+Public macroUpdateCount As Integer      '変更マクロ数
+Private templatesAdd() As String        'テンプレート名追加
+Private templatesDelete() As String     'テンプレート名削除
+Private macroNameAdd() As String        'マクロ変数追加
+Private macroValueAdd() As String       'マクロ値追加
+Private macroNameUpdate() As String     'マクロ変数変更
+Private macroValueUpdate() As String    'マクロ値変更
+
+'04,05,06 不使用
+
+'07
+Public manual07 As Boolean
+Public oldHostName As String            '旧ホスト名
+Public newHostName As String            '新ホスト名
+Public oldGroupName As String           '旧ホストグループ名
+Public newGroupName As String           '新ホストグループ名
+
+'08,09,10,11 不使用
+
+'12,13
+Public manual12 As Boolean
+Private logName() As String             '名前
+Private logType() As String             'タイプ
+Private logKey() As String              'キー
+Private logDataType() As String         'データ型
+Private logMonitorInterval() As String  '監視間隔
+Private logApplication() As String      'アプリケーション
+Private logConditionFormula() As String '条件式
+Private logFailureEvent() As String     '障害イベント発生モード
+Private logImportance() As String       '深刻度
+
+'14 不使用
+
+'15
+Public manual15 As Boolean
+Public itemCount15 As Integer
+Private itemName() As String            'アイテム名
+Private itemEnable() As Boolean         'アイテム有効化
+
+'16
+Public manual16 As Boolean
+Public triggerCount16 As Integer
+Private triggerName() As String         'トリガー名
+Private triggerEnable() As Boolean      'トリガー有効化
+
+'17 不使用
+
+'19
+Public manual19 As Boolean
+Private itemNameDelete() As String      'アイテム名
+
+'20
+Public manual20 As Boolean
+Private customName() As String              '名前
+Private customConditionForm() As String     '条件式の形式
+Private customConditionFormula() As String  '条件式
+
+'21,22,23,24 不使用
+
+'25
+Public manual25 As Boolean
+Private webScenario() As String
+Private webCertificate() As String
+Private webScenarioID() As String
+Private webScenarioPass() As String
+
+'26,27 不使用 質問あり
+
+'28,29,30 不使用
